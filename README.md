@@ -51,7 +51,7 @@ O projeto está sendo desenvolvido durante o evento de programação Next Level 
 ### Layout
 Este projeto ainda não foi concluido mas este é o layout base para contrução da aplicação
 
-| Versão Mobile: |Versão Desktop: |
+|  |  |
 |----------|----------|
 | ![example](https://github.com/wrtinho/Move.it/blob/main/public/images/screens/home.png) |  ![example](https://github.com/wrtinho/Move.it/blob/main/public/images/screens/home_click.png) |
 | ![example](https://github.com/wrtinho/Move.it/blob/main/public/images/screens/home_clickend.png) |  ![example](https://github.com/wrtinho/Move.it/blob/main/public/images/screens/share_end_task.png) |
