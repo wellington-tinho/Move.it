@@ -1,46 +1,105 @@
-# Getting Started with Create React App
+<h2 align="center">
+  <img src="https://img.shields.io/badge/Move.it-v1-blueblack?color=blue&style=for-the-badge" alt="Nome e edição do evento" />
+  <img src="https://img.shields.io/badge/Front End%3F-no-blueblack?color=blue&style=for-the-badge" alt="Front-End No" />
+  <img src="https://img.shields.io/badge/Back End%3F-no-blueblack?color=blue&style=for-the-badge" alt="Back-End No" />
+  <img src="https://img.shields.io/badge/Mobile%3F-no-blueblack?color=blue&style=for-the-badge" alt="Mobile No" />
+  <img src="https://img.shields.io/github/license/WorkEasy/WorkEasy?color=black&style=for-the-badge" alt="License" />
+</h2>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
 
-In the project directory, you can run:
+<p align="center">
+   <img src="https://github.com/wrtinho/Move.it/images/Move.it_Logo.png alt="logo-Move.it" width="420"/>
+</p>
 
-### `yarn start`
+#### ⚠️ Esta aplicação atualmente se encontra em 1/5 de partes para sua conclusão.⚠️
+##### Tendo como base neste cronograma. 
+| Dia, etapa   | Assunto |
+|----------|----------|
+|Segunda [Hoje] | Introdução |
+|Terça |  Desvendando o Next.js |
+|Quarta |  Contexto e componentes |
+|Quinta |  Storage, SRR & Lambda |
+|Sexta |  Próximo nivel com React |
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Toda descrição abaixo esta referida a etapa atual.
+## 📖 Sobre 
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
 
-### `yarn test`
+Aplicação voltada ao publico estudande, dispondo de uma solução para estudos duradoutos sem problemas comuns como dores, sedentarismo uso continuo da visão e etc. 
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+O projeto está sendo desenvolvido durante o evento de programação Next Level Week sendo elaborado pela Instituição educacional Rocketseat.
 
-### `yarn build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<div align="center">
+   <sub>Desenvolvido por 
+    <a href="https://github.com/wrtinho">Wellington Rodrigues</a>, sobre o auxílio do instrutor 
+    <a href="https://github.com/diego3g">Diego Fernandes.</a>
+  </sub>
+</div>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## :pushpin: Tabela de Conteúdo
 
-### `yarn eject`
+* [Tecnologias](#computer-tecnologias)
+* [Funcionalidades](#rocket-funcionalidades)
+* [Como rodar](#construction_worker-como-rodar)
+* [Encontrou um bug? Ou está faltando uma feature?](#bug-problemas)
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+* [Licença](#memo-licença)
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Layout
+Este projeto ainda não foi concluido mas este é o layout base para contrução da aplicação
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+| Versão Mobile: |Versão Desktop: |
+|----------|----------|
+| ![example](https://github.com/wrtinho/Move.it/images/screens/home.png) |  ![example](https://github.com/wrtinho/Move.it/images/screens/home.png) |
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Você tambem pode copiar e editar esse layout venha mais aqui: [Figma](https://www.figma.com/file/ge20pu3ofMOKoliUyKx1Nl/Move.it-1.0/duplicate)
+## :computer: Tecnologias
+Até o momento esse projeto foi feito utilizando as seguintes tecnologias:
 
-## Learn More
+* [Typescript](https://www.typescriptlang.org/)
+* [React](https://reactjs.org/)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## :rocket: Funcionalidades
+Essas funcionalidades contemplam o projeto.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+* Integração de metodo pomodoro.
+* Gamificação.
+
+# :construction_worker: Como rodar
+
+```bash
+# Clone o Repositorio
+$ git clone https://github.com/wrtinho/Move.it.git
+
+```
+### 💻 Rode o Project Web
+
+```bash
+# Instale as depedencias
+$ yarn install
+
+# Rode a aplicação
+$ yarn start
+
+```
+Acesse: http://localhost:3000/ para ver o resultado.
+
+# :bug: Problemas
+
+Fique a vontade para criar uma nova issue com o respectivo titulo e descrição na página de issues do [Move.it](https://github.com/wrtinho/Move.it/issues) Repositorio.
+
+
+# :memo: Licença
+
+Lançado em 2021 :memo: Licença
+Esse projeto esta sobre [MIT license](./LICENSE).
+
+
+
+<h4 align="center">
+    Feito com 💜 by <a href="https://www.linkedin.com/in/wellington-rodrigues-a11b1392/" target="_blank">Wellington </a>
+</h4>
+
