@@ -9,7 +9,7 @@
 
 
 <p align="center">
-   <img src="https://github.com/wrtinho/Move.it/images/Move.it_Logo.png alt="logo-Move.it" width="420"/>
+   <img src="https://github.com/wrtinho/Move.it/blob/main/public/images/Move.it_Logo.png" alt="logo-Move.it" width="420"/>
 </p>
 
 #### ⚠️ Esta aplicação atualmente se encontra em 1/5 de partes para sua conclusão.⚠️
@@ -28,7 +28,7 @@ Toda descrição abaixo esta referida a etapa atual.
 
 Aplicação voltada ao publico estudande, dispondo de uma solução para estudos duradoutos sem problemas comuns como dores, sedentarismo uso continuo da visão e etc. 
 
-O projeto está sendo desenvolvido durante o evento de programação Next Level Week sendo elaborado pela Instituição educacional Rocketseat.
+O projeto está sendo desenvolvido durante o evento de programação Next Level Week sendo elaborado pela Instituição educacional [Rocketseat](https://github.com/Rocketseat).
 
 
 
@@ -53,9 +53,13 @@ Este projeto ainda não foi concluido mas este é o layout base para contrução
 
 | Versão Mobile: |Versão Desktop: |
 |----------|----------|
-| ![example](https://github.com/wrtinho/Move.it/images/screens/home.png) |  ![example](https://github.com/wrtinho/Move.it/images/screens/home.png) |
+| ![example](https://github.com/wrtinho/Move.it/blob/main/public/images/screens/home.png) |  ![example](https://github.com/wrtinho/Move.it/blob/main/public/images/screens/home_click.png) |
+| ![example](https://github.com/wrtinho/Move.it/blob/main/public/images/screens/home_clickend.png) |  ![example](https://github.com/wrtinho/Move.it/blob/main/public/images/screens/share_end_task.png) |
 
-Você tambem pode copiar e editar esse layout venha mais aqui: [Figma](https://www.figma.com/file/ge20pu3ofMOKoliUyKx1Nl/Move.it-1.0/duplicate)
+![example](https://github.com/wrtinho/Move.it/blob/main/public/images/screens/lv_number.png) 
+
+
+Você tambem pode copiar e editar esse layout veja mais aqui: [Figma](https://www.figma.com/file/ge20pu3ofMOKoliUyKx1Nl/Move.it-1.0/duplicate)
 ## :computer: Tecnologias
 Até o momento esse projeto foi feito utilizando as seguintes tecnologias:
 
@@ -100,6 +104,6 @@ Esse projeto esta sobre [MIT license](./LICENSE).
 
 
 <h4 align="center">
-    Feito com 💜 by <a href="https://www.linkedin.com/in/wellington-rodrigues-a11b1392/" target="_blank">Wellington </a>
+    Feito com 💜 by <a href="https://www.linkedin.com/in/wellington123/" target="_blank">Wellington </a>
 </h4>
 
