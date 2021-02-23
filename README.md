@@ -9,15 +9,15 @@
 
 
 <p align="center">
-   <img src="https://github.com/wrtinho/Move.it/blob/main/public/images/Move.it_Logo.png" alt="logo-Move.it" width="420"/>
+   <img src="https://github.com/wrtinho/Move.it/blob/main/images/Move.it_Logo.png" alt="logo-Move.it" width="420"/>
 </p>
 
 #### ⚠️ Esta aplicação atualmente se encontra em 1/5 de partes para sua conclusão.⚠️
 ##### Tendo como base neste cronograma. 
 | Dia, etapa   | Assunto |
 |----------|----------|
-|Segunda [Hoje] | Introdução |
-|Terça |  Desvendando o Next.js |
+|Segunda  | Introdução |
+|Terça [*]|  Desvendando o Next.js |
 |Quarta |  Contexto e componentes |
 |Quinta |  Storage, SRR & Lambda |
 |Sexta |  Próximo nivel com React |
@@ -53,18 +53,19 @@ Este projeto ainda não foi concluido mas este é o layout base para contrução
 
 |  |  |
 |----------|----------|
-| ![example](https://github.com/wrtinho/Move.it/blob/main/public/images/screens/home.png) |  ![example](https://github.com/wrtinho/Move.it/blob/main/public/images/screens/home_click.png) |
-| ![example](https://github.com/wrtinho/Move.it/blob/main/public/images/screens/home_clickend.png) |  ![example](https://github.com/wrtinho/Move.it/blob/main/public/images/screens/share_end_task.png) |
+| ![example](https://github.com/wrtinho/Move.it/blob/main/images/screens/home.png) |  ![example](https://github.com/wrtinho/Move.it/blob/main/images/screens/home_click.png) |
+| ![example](https://github.com/wrtinho/Move.it/blob/main/images/screens/home_clickend.png) |  ![example](https://github.com/wrtinho/Move.it/blob/main/images/screens/share_end_task.png) |
 
-![example](https://github.com/wrtinho/Move.it/blob/main/public/images/screens/lv_number.png) 
+![example](https://github.com/wrtinho/Move.it/blob/main/images/screens/lv_number.png) 
 
 
 Você tambem pode copiar e editar esse layout veja mais aqui: [Figma](https://www.figma.com/file/ge20pu3ofMOKoliUyKx1Nl/Move.it-1.0/duplicate)
 ## :computer: Tecnologias
-Até o momento esse projeto foi feito utilizando as seguintes tecnologias:
+Até o momento foi utilizado as seguintes tecnologias nesse projeto:
 
 * [Typescript](https://www.typescriptlang.org/)
-* [React](https://reactjs.org/)
+* [React](https://reactjs.org/) - (Componentes, propriedades e Estado)
+* [Next.js](https://nextjs.org/) - (SPA,SSR e SSG)
 
 ## :rocket: Funcionalidades
 Essas funcionalidades contemplam o projeto.
@@ -79,14 +80,17 @@ Essas funcionalidades contemplam o projeto.
 $ git clone https://github.com/wrtinho/Move.it.git
 
 ```
-### 💻 Rode o Project Web
+### 💻 Rode o Project
 
 ```bash
+# Instale Entre na pasta do projeto
+$ cd Move.it/ 
+
 # Instale as depedencias
 $ yarn install
 
 # Rode a aplicação
-$ yarn start
+$ yarn dev
 
 ```
 Acesse: http://localhost:3000/ para ver o resultado.
