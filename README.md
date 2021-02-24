@@ -12,13 +12,13 @@
    <img src="https://github.com/wrtinho/Move.it/blob/main/images/Move.it_Logo.png" alt="logo-Move.it" width="420"/>
 </p>
 
-#### ⚠️ Esta aplicação atualmente se encontra em 2/5 de partes para sua conclusão.⚠️
+#### ⚠️ Esta aplicação atualmente se encontra em 3/5 de partes para sua conclusão.⚠️
 ##### Tendo como base neste cronograma. 
 | Dia, etapa   | Assunto |
 |----------|----------|
 |Segunda  | Introdução |
-|Terça [*]|  Desvendando o Next.js |
-|Quarta |  Contexto e componentes |
+|Terça |  Desvendando o Next.js |
+|Quarta [*]|  Contexto e componentes |
 |Quinta |  Storage, SRR & Lambda |
 |Sexta |  Próximo nivel com React |
 
@@ -64,8 +64,9 @@ Você tambem pode copiar e editar esse layout veja mais aqui: [Figma](https://ww
 Até o momento foi utilizado as seguintes tecnologias nesse projeto:
 
 * [Typescript](https://www.typescriptlang.org/)
-* [React](https://reactjs.org/) - (Componentes, propriedades e Estado)
-* [Next.js](https://nextjs.org/) - (SPA,SSR e SSG)
+* [React](https://reactjs.org/) - (Componentes, Propriedades, Estado, Contextos [CSS Modules](https://css-tricks.com/css-modules-part-1-need/))
+* [Next.js](https://nextjs.org/) - (SPA, SSR e SSG)
+
 
 ## :rocket: Funcionalidades
 Essas funcionalidades contemplam o projeto.
@@ -83,7 +84,7 @@ $ git clone https://github.com/wrtinho/Move.it.git
 ### 💻 Rode o Project
 
 ```bash
-# Instale Entre na pasta do projeto
+# Entre na pasta do projeto
 $ cd Move.it/ 
 
 # Instale as depedencias
