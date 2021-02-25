@@ -12,14 +12,14 @@
    <img src="https://github.com/wrtinho/Move.it/blob/main/images/Move.it_Logo.png" alt="logo-Move.it" width="420"/>
 </p>
 
-#### ⚠️ Esta aplicação atualmente se encontra em 3/5 de partes para sua conclusão.⚠️
+#### ⚠️ Esta aplicação atualmente se encontra em 4/5 de partes para sua conclusão.⚠️
 ##### Tendo como base neste cronograma. 
 | Dia, etapa   | Assunto |
 |----------|----------|
 |Segunda  | Introdução |
 |Terça |  Desvendando o Next.js |
-|Quarta [*]|  Contexto e componentes |
-|Quinta |  Storage, SRR & Lambda |
+|Quarta |  Contexto e componentes |
+|Quinta [*]| Melhorando a usabilidade da aplicação |
 |Sexta |  Próximo nivel com React |
 
 Toda descrição abaixo esta referida a etapa atual.

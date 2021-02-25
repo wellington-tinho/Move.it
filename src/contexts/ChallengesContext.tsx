@@ -1,4 +1,4 @@
-import { createContext, useState, ReactNode } from 'react';
+import { createContext, useState, ReactNode, useEffect } from 'react';
 import challenges from '../../challenges.json';
 
 interface Challenge {
@@ -16,6 +16,7 @@ interface ChallengesContextData {
    levelUp: () => void;
    startNewChallenge: () => void;
    resetChallenge: () => void;
+   completeChallenge: () => void;
 }
 interface ChallengesProviderProps {
    children: ReactNode;
@@ -25,9 +26,13 @@ export function ChallengesProvider({ children }: ChallengesProviderProps) {
    const [level, setLevel] = useState(1)
    const [currentExperience, setCurrentExperience] = useState(0)
    const [challengesCompleted, setChallengesCompleted] = useState(0)
-   const [activeChallenge, setActiveChalenges] = useState(null);
+   const [activeChallenge, setActiveChalenge] = useState(null);
 
    const experienceToNextLevel = Math.pow((level + 1) * 4, 2);
+
+   useEffect(() => {
+      Notification.requestPermission()
+   }, [])
 
    function levelUp() {
       setLevel(level + 1)
@@ -36,13 +41,34 @@ export function ChallengesProvider({ children }: ChallengesProviderProps) {
       const randomchallengeIndex = Math.floor(Math.random() * challenges.length)
       const challenge = challenges[randomchallengeIndex];
 
-      setActiveChalenges(challenge)
+      setActiveChalenge(challenge);
+      new Audio('/notification.mp3').play();
+      if (Notification.permission === 'granted') {
+         new Notification('Novo desafio 🎉', {
+            body: `Valendo ${challenge.amount} xp!`
+         })
+      }
+
    }
 
    function resetChallenge() {
-      setActiveChalenges(null);
+      setActiveChalenge(null);
    }
+   function completeChallenge() {
+      if (!activeChallenge) {
+         return;
+      }
+      const { amount } = activeChallenge;
+      let finalExperience = currentExperience + amount;
+      if (finalExperience >= experienceToNextLevel) {
+         finalExperience = finalExperience - experienceToNextLevel;
+         levelUp();
+      }
+      setCurrentExperience(finalExperience);
+      setActiveChalenge(null);
+      setChallengesCompleted(challengesCompleted + 1);
 
+   }
    return (
       <ChallengesContext.Provider
          value={{
@@ -54,6 +80,7 @@ export function ChallengesProvider({ children }: ChallengesProviderProps) {
             startNewChallenge,
             activeChallenge,
             resetChallenge,
+            completeChallenge,
          }}>
          {children}
       </ChallengesContext.Provider>
