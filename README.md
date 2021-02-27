@@ -1,16 +1,29 @@
-<h2 align="center">
-  <img src="https://img.shields.io/badge/Move.it-v1-blueblack?color=blue&style=for-the-badge" alt="Nome e edição do evento" />
-  <img src="https://img.shields.io/badge/Front End%3F-no-blueblack?color=blue&style=for-the-badge" alt="Front-End No" />
-  <img src="https://img.shields.io/badge/Back End%3F-no-blueblack?color=blue&style=for-the-badge" alt="Back-End No" />
-  <img src="https://img.shields.io/badge/Mobile%3F-no-blueblack?color=blue&style=for-the-badge" alt="Mobile No" />
-  <img src="https://img.shields.io/github/license/WorkEasy/WorkEasy?color=black&style=for-the-badge" alt="License" />
-</h2>
 
+<p align="center">
+   <img src="./.github/logo.svg" alt="Move It" width="300"/>
+</p>
+
+<p align="center">	
+   <a href="https://www.linkedin.com/in/wellington123/">
+      <img alt="Wellington" src="https://img.shields.io/badge/-Wellington123-5965e0?style=flat&logo=Linkedin&logoColor=white" />
+   </a>
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/wrtinho/Move.it?color=5863d2">
+
+  <a aria-label="Completed" href="https://nextlevelweek.com/episodios/react/1/edicao/4">
+    <img src="https://img.shields.io/badge/Move.It-NLW 4-5965e0?logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAALVBMVEVHcExxWsF0XMJzXMJxWcFsUsD///9jRrzY0u6Xh9Gsn9n39fyMecy0qd2bjNJWBT0WAAAABHRSTlMA2Do606wF2QAAAGlJREFUGJVdj1cWwCAIBLEsRU3uf9xobDH8+GZwUYi8i6ucJwrxKE+7D0G9Q4vlYqtmCSjndr4CgCgzlyFgfKfKCVO0LrPKjmiqMxGXkJwNnXskqWG+1oSM+BSwD8f29YLNjvx/OQrn+g99oQSoNmt3PgAAAABJRU5ErkJggg=="></img>
+  </a>
+  <a href="https://github.com/wrtinho/Move.it/commits/main">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/wrtinho/Move.it?color=5863d2">
+  </a> 
+  <img alt="License" src="https://img.shields.io/badge/license-MIT-5965e0">
+ 
+</p>
 
 
 <p align="center">
    <img src="https://github.com/wrtinho/Move.it/blob/main/images/Move.it_Logo.png" alt="logo-Move.it" width="420"/>
-  <a link='https://movetimer.vercel.app/'>Acesse movetimer</a>
+   <span>Acesse agora mesmo:</span>
+  <a link='https://movetimer.vercel.app/'>MoveTimer</a>
 </p>
 
 ## 📖 Sobre 
@@ -18,7 +31,7 @@
 
 Aplicação voltada ao publico estudande, dispondo de uma solução para estudos duradoutos sem problemas comuns como dores, sedentarismo uso continuo da visão e etc. 
 
-O projeto está sendo desenvolvido durante o evento de programação Next Level Week sendo elaborado pela Instituição educacional [Rocketseat](https://github.com/Rocketseat).
+O projeto está sendo desenvolvido durante o evento de programação Next Level Week #4 sendo elaborado pela [Rocketseat](https://github.com/Rocketseat).
 
 
 
@@ -32,14 +45,12 @@ O projeto está sendo desenvolvido durante o evento de programação Next Level 
 ## :pushpin: Tabela de Conteúdo
 
 * [Tecnologias](#computer-tecnologias)
-* [Funcionalidades](#rocket-funcionalidades)
 * [Como rodar](#construction_worker-como-rodar)
 * [Encontrou um bug? Ou está faltando uma feature?](#bug-problemas)
 
 * [Licença](#memo-licença)
 
-### Layout
-Este projeto ainda não foi concluido mas este é o layout base para contrução da aplicação
+### Layout da aplicação
 
 |  |  |
 |----------|----------|
@@ -47,22 +58,22 @@ Este projeto ainda não foi concluido mas este é o layout base para contrução
 | ![example](https://github.com/wrtinho/Move.it/blob/main/images/screens/home_clickend.png) |  ![example](https://github.com/wrtinho/Move.it/blob/main/images/screens/share_end_task.png) |
 
 ![example](https://github.com/wrtinho/Move.it/blob/main/images/screens/lv_number.png) 
-
-
-Você tambem pode copiar e editar esse layout veja mais aqui: [Figma](https://www.figma.com/file/ge20pu3ofMOKoliUyKx1Nl/Move.it-1.0/duplicate)
+<br>
+<p align="center">
+  <a href="https://www.figma.com/file/n9J6604nMGB7Cgt2vEVtWb/Move.it-1.0-Dark-Mode">
+    <img alt="Figma" src="https://img.shields.io/badge/figma%20-%236E40C9.svg?&style=for-the-badge&logo=figma&logoColor=white"/>
+  </a>
+</p>
+<br>
 ## :computer: Tecnologias
-Até o momento foi utilizado as seguintes tecnologias nesse projeto:
+Tecnologias e ferramentas utilizadas no desenvolvimento do projeto:
 
 * [Typescript](https://www.typescriptlang.org/)
 * [React](https://reactjs.org/) - (Componentes, Propriedades, Estado, Contextos [CSS Modules](https://css-tricks.com/css-modules-part-1-need/))
 * [Next.js](https://nextjs.org/) - (SPA, SSR e SSG)
+* [Styled Components](https://styled-components.com/)
 
 
-## :rocket: Funcionalidades
-Essas funcionalidades contemplam o projeto.
-
-* Integração de metodo pomodoro.
-* Gamificação.
 
 # :construction_worker: Como rodar
 
@@ -70,10 +81,6 @@ Essas funcionalidades contemplam o projeto.
 # Clone o Repositorio
 $ git clone https://github.com/wrtinho/Move.it.git
 
-```
-### 💻 Rode o Project
-
-```bash
 # Entre na pasta do projeto
 $ cd Move.it/ 
 
@@ -93,10 +100,11 @@ Fique a vontade para criar uma nova issue com o respectivo titulo e descrição 
 
 # :memo: Licença
 
-Lançado em 2021 :memo: Licença
-Esse projeto esta sobre [MIT license](./LICENSE).
+Lançado em 2021, esse projeto está sob a licença MIT. 
+Veja o arquivo [LICENSE](./LICENSE) para mais detalhes.
 
 
+<br>
 
 <h4 align="center">
     Feito com 💜 by <a href="https://www.linkedin.com/in/wellington123/" target="_blank">Wellington </a>
