@@ -10,19 +10,9 @@
 
 <p align="center">
    <img src="https://github.com/wrtinho/Move.it/blob/main/images/Move.it_Logo.png" alt="logo-Move.it" width="420"/>
+  <a link='https://movetimer.vercel.app/'>Acesse movetimer</a>
 </p>
 
-#### ⚠️ Esta aplicação atualmente se encontra em 4/5 de partes para sua conclusão.⚠️
-##### Tendo como base neste cronograma. 
-| Dia, etapa   | Assunto |
-|----------|----------|
-|Segunda  | Introdução |
-|Terça |  Desvendando o Next.js |
-|Quarta |  Contexto e componentes |
-|Quinta [*]| Melhorando a usabilidade da aplicação |
-|Sexta |  Próximo nivel com React |
-
-Toda descrição abaixo esta referida a etapa atual.
 ## 📖 Sobre 
 
 
