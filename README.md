@@ -1,7 +1,4 @@
 
-<p align="center">
-   <img src="./.github/logo.svg" alt="Move It" width="300"/>
-</p>
 
 <p align="center">	
    <a href="https://www.linkedin.com/in/wellington123/">
@@ -16,15 +13,24 @@
     <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/wrtinho/Move.it?color=5863d2">
   </a> 
   <img alt="License" src="https://img.shields.io/badge/license-MIT-5965e0">
- 
+
 </p>
+   <br>
+
 
 
 <p align="center">
    <img src="https://github.com/wrtinho/Move.it/blob/main/images/Move.it_Logo.png" alt="logo-Move.it" width="420"/>
-   <span>Acesse agora mesmo:</span>
-  <a link='https://movetimer.vercel.app/'>MoveTimer</a>
+
 </p>
+  
+<div align="center">
+   <sub>Acesse agora mesmo:
+    <a href="https://movetimer.vercel.app/">MoveTimer</a>
+  </sub>
+</div>
+ 
+
 
 ## 📖 Sobre 
 
