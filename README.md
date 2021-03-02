@@ -37,7 +37,7 @@
 
 Aplicação voltada ao publico estudande, dispondo de uma solução para estudos duradoutos sem problemas comuns como dores, sedentarismo uso continuo da visão e etc. 
 
-O projeto está sendo desenvolvido durante o evento de programação Next Level Week #4 sendo elaborado pela [Rocketseat](https://github.com/Rocketseat).
+Este projeto foi desenvolvido durante o evento de programação Next Level Week #4 sendo elaborado pela [Rocketseat](https://github.com/Rocketseat).
 
 
 
