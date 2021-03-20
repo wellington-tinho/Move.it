@@ -71,6 +71,8 @@ Este projeto foi desenvolvido durante o evento de programação Next Level Week 
   </a>
 </p>
 <br>
+
+
 ## :computer: Tecnologias
 Tecnologias e ferramentas utilizadas no desenvolvimento do projeto:
 
