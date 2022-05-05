@@ -4,13 +4,13 @@
    <a href="https://www.linkedin.com/in/wellington123/">
       <img alt="Wellington" src="https://img.shields.io/badge/-Wellington123-5965e0?style=flat&logo=Linkedin&logoColor=white" />
    </a>
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/wrtinho/Move.it?color=5863d2">
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/wellington-tinho/Move.it?color=5863d2">
 
   <a aria-label="Completed" href="https://nextlevelweek.com/episodios/react/1/edicao/4">
     <img src="https://img.shields.io/badge/Move.It-NLW 4-5965e0?logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAALVBMVEVHcExxWsF0XMJzXMJxWcFsUsD///9jRrzY0u6Xh9Gsn9n39fyMecy0qd2bjNJWBT0WAAAABHRSTlMA2Do606wF2QAAAGlJREFUGJVdj1cWwCAIBLEsRU3uf9xobDH8+GZwUYi8i6ucJwrxKE+7D0G9Q4vlYqtmCSjndr4CgCgzlyFgfKfKCVO0LrPKjmiqMxGXkJwNnXskqWG+1oSM+BSwD8f29YLNjvx/OQrn+g99oQSoNmt3PgAAAABJRU5ErkJggg=="></img>
   </a>
-  <a href="https://github.com/wrtinho/Move.it/commits/main">
-    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/wrtinho/Move.it?color=5863d2">
+  <a href="https://github.com/wellington-tinho/Move.it/commits/main">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/wellington-tinho/Move.it?color=5863d2">
   </a> 
   <img alt="License" src="https://img.shields.io/badge/license-MIT-5965e0">
 
@@ -20,7 +20,7 @@
 
 
 <p align="center">
-   <img src="https://github.com/wrtinho/Move.it/blob/main/images/Move.it_Logo.png" alt="logo-Move.it" width="420"/>
+   <img src="https://github.com/wellington-tinho/Move.it/blob/main/images/Move.it_Logo.png" alt="logo-Move.it" width="420"/>
 
 </p>
   
@@ -43,7 +43,7 @@ Este projeto foi desenvolvido durante o evento de programação Next Level Week 
 
 <div align="center">
    <sub>Desenvolvido por 
-    <a href="https://github.com/wrtinho">Wellington Rodrigues</a>, sobre o auxílio do instrutor 
+    <a href="https://github.com/wellington-tinho">Wellington Rodrigues</a>, sobre o auxílio do instrutor 
     <a href="https://github.com/diego3g">Diego Fernandes.</a>
   </sub>
 </div>
@@ -60,10 +60,10 @@ Este projeto foi desenvolvido durante o evento de programação Next Level Week 
 
 |  |  |
 |----------|----------|
-| ![example](https://github.com/wrtinho/Move.it/blob/main/images/screens/home.png) |  ![example](https://github.com/wrtinho/Move.it/blob/main/images/screens/home_click.png) |
-| ![example](https://github.com/wrtinho/Move.it/blob/main/images/screens/home_clickend.png) |  ![example](https://github.com/wrtinho/Move.it/blob/main/images/screens/share_end_task.png) |
+| ![example](https://github.com/wellington-tinho/Move.it/blob/main/images/screens/home.png) |  ![example](https://github.com/wellington-tinho/Move.it/blob/main/images/screens/home_click.png) |
+| ![example](https://github.com/wellington-tinho/Move.it/blob/main/images/screens/home_clickend.png) |  ![example](https://github.com/wellington-tinho/Move.it/blob/main/images/screens/share_end_task.png) |
 
-![example](https://github.com/wrtinho/Move.it/blob/main/images/screens/lv_number.png) 
+![example](https://github.com/wellington-tinho/Move.it/blob/main/images/screens/lv_number.png) 
 <br>
 <p align="center">
   <a href="https://www.figma.com/file/n9J6604nMGB7Cgt2vEVtWb/Move.it-1.0-Dark-Mode">
@@ -87,7 +87,7 @@ Tecnologias e ferramentas utilizadas no desenvolvimento do projeto:
 
 ```bash
 # Clone o Repositorio
-$ git clone https://github.com/wrtinho/Move.it.git
+$ git clone https://github.com/wellington-tinho/Move.it.git
 
 # Entre na pasta do projeto
 $ cd Move.it/ 
@@ -103,7 +103,7 @@ Acesse: http://localhost:3000/ para ver o resultado.
 
 # :bug: Problemas
 
-Fique a vontade para criar uma nova issue com o respectivo titulo e descrição na página de issues do [Move.it](https://github.com/wrtinho/Move.it/issues) Repositorio.
+Fique a vontade para criar uma nova issue com o respectivo titulo e descrição na página de issues do [Move.it](https://github.com/wellington-tinho/Move.it/issues) Repositorio.
 
 
 # :memo: Licença
